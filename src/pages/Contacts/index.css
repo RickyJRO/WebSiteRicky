@@ -1,0 +1,243 @@
+.containerContacts {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+.contactsContainer {
+  padding: 3rem;
+  height: 80vh;
+  display: flex;
+  flex: 1;
+ 
+}
+.contactsCard {
+  padding: 1rem 3rem;
+  color: #fff;
+  flex: 1;
+
+}
+
+.contactsPicture {
+  flex: 1;
+}
+.contactsLinkContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+.input {
+  color: #fff;
+  border: 1px solid #fff !important;
+  outline: none !important;
+  text-decoration: none !important;
+  width: 50%;
+  border-radius: 10px !important;
+  padding-left: 10px !important;
+  background-color: transparent;
+}
+.inputRole {
+  color: #fff;
+  border: 1px solid #fff !important;
+  outline: none !important;
+  text-decoration: none !important;
+  background-color: transparent;
+  width: 100%;
+
+  height: 40px;
+  border-radius: 10px !important;
+  padding-left: 10px !important;
+}
+.textArea {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0.5rem;
+  height: 125px;
+  resize: none;
+  outline: none;
+  background-color: transparent;
+}
+.submitContactsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.submitContacts {
+  border-radius: 50px;
+  text-align: center;
+  background: linear-gradient(to right, #58c4df, #4986c0) !important;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 25px !important;
+}
+.workedWithMe {
+
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.8vw;
+  margin-bottom: 3rem;
+}
+.testimonialForm {
+  margin-top: 2rem;
+}
+.nameAndRole {
+  display: flex;
+  flex: 1;
+}
+.name {
+  margin-right: 50px;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+.role{
+  flex: 1;
+}
+.testimonialText {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 100%;
+  height: 100px;
+  resize: none;
+  outline: none;
+  background-color: transparent;
+}
+.submitTestimonialContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.submitTestimonial {
+  border-radius: 50px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to right, #58c4df, #4986c0) !important;
+  font-weight: bold;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px !important;
+}
+.contactsPictureContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  margin-top: 2rem;
+  color: #fff;
+}
+.contactsPicture {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  margin-bottom: 2rem;
+}
+.pictureRicardo {
+  height: 100%;
+}
+.spanContacts {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 1.2vw;
+  font-style: italic;
+}
+.googleContainer {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #fff;
+  margin-left: 1rem;
+}
+.googleLogo {
+  height: 100%;
+}
+.contactsLabels{
+  font-size: 1vw;
+}
+/* WebKit and Chromiums */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(46, 219, 250);
+  border-radius: 5px;
+}
+@media only screen and (max-width: 1200px) {
+  .containerContacts{
+    height: 100%;
+  }
+  
+  .contactsContainer {
+    flex-direction: column-reverse;
+    height: auto;
+    overflow-y: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  .contactsPictureContainer {
+    margin-bottom: 5rem;
+  }
+  .contactsLinkContainer {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .workedWithMe{
+    font-size: 16px;
+  }
+  .nameAndRole {
+    flex-direction: column;
+  }
+  .contactsPicture {
+    width: 300px;
+    height: 300px;
+  }
+  .contactsPictureContainer {
+    margin-top: 1rem;
+  }
+  .contactsLabels{
+    font-size: 14px;
+  }
+  .spanContacts{
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contactsPicture {
+    width: 200px;
+    height: 200px;
+  }
+  .contactsCard {
+    padding: 0rem;
+  }
+  .spanContacts {
+    font-size: 15px;
+  }
+  .name{
+    margin-right: 0px;
+  }
+  .contactsLabels{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .spanContacts {
+    font-size: 13px;
+  }
+}

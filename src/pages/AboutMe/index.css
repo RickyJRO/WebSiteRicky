@@ -1,0 +1,112 @@
+.aboutMeText {
+  color: #fff;
+  font-size: 1.2vw;
+  
+}
+.aboutMeTitle {
+  color: #fff;
+  font-size: 3vw;
+  margin-bottom: 1rem;
+}
+.aboutMeContainer {
+  padding: 3rem;
+  display: flex;
+  flex: 1;
+}
+.aboutMeTextContainer {
+  flex: 1;
+}
+.aboutMePhotoContainer {
+  flex: 1;
+}
+.swiperAboutMe {
+  width: 500px;
+  height: 500px;
+}
+.aboutme {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.aboutMePhotoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutMePhoto {
+ height: 100%;
+ border-radius: 20px;
+}
+.aboutMeLinksContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+.swiuperAboutMe{
+  height: 500px;
+  width: 600px;
+}
+.swiuperAboutMe .swiper-slide{
+  overflow: hidden;
+}
+.currentlyTitle{
+  color: #fff;
+  font-size: 1.3vw;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.jobImage{
+  max-height: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.aboutMePhotoContainer > .swiper-cards{
+  overflow: visible;
+}
+@media only screen and (max-width: 1200px) {
+
+  .aboutMeLinksContainer{
+    display: none;
+  }
+  .aboutMeTextContainer{
+    margin-bottom: 5rem;
+  }
+  .aboutMeContainer{
+    flex-direction: column;
+    overflow-y: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .aboutMeTextContainer{
+    padding: 0;
+  }
+  .currentlyTitle{
+    font-size: 16px;
+    font-style: italic;
+  }
+.aboutMeTitle{
+  font-size: 2.5rem;
+}
+.aboutMeText{
+  font-size: 1.3rem;
+}
+.swiuperAboutMe{
+  height: 400px;
+  width: 450px;
+}
+.aboutMeContainer{
+  padding: 2rem;
+}
+}
+@media only screen and (max-width: 500px) {
+
+  .swiuperAboutMe{
+    height: 300px;
+    width: 350px;
+  }
+  }

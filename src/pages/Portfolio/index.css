@@ -1,0 +1,65 @@
+.portfolioContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.PortfolioTitle {
+  padding-top: 2rem;
+  font-size: 3vw;
+  color: #fff;
+  text-align: center;
+}
+.swiperContainer {
+  margin-top: 5rem;
+  margin-left: 0rem;
+}
+.portfolioContainer .swiper-wrapper {
+  padding-bottom: 0.5rem;
+}
+.portfolioContainer .swiper-slide {
+  width: 45vw;
+  max-width: calc(100% - 32px - 32px);
+  height: 50vh;
+  opacity: 0.4;
+  transition: 200ms ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolioContainer .swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-slide-active {
+  cursor: pointer;
+}
+.portfolioLinksContainer {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+.portfolioCard {
+  border-radius: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  .portfolioLinksContainer {
+    display: none;
+  }
+  .PortfolioTitle {
+    margin-top: 3rem;
+  }
+  .portfolioContainer .swiper-slide {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .portfolioContainer .swiper-slide {
+    width: 500px;
+  }
+  .PortfolioTitle {
+    font-size: 42px;
+  }
+}

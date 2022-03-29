@@ -1,0 +1,57 @@
+.testimonialTop {
+  display: flex;
+
+  width: 100%;
+}
+.testimonialAvatar {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+ 
+}
+.testimonialPhoto {
+  width: 100%;
+}
+.testimonialJob {
+  text-align: center;
+  color: #fff;
+}
+.textimonialJobRole {
+  margin-bottom: 1rem;
+  font-size: 14px;
+  font-weight: 100;
+}
+.testimonialName {
+  font-size: 18px;
+  font-weight: bold;
+}
+.swiperTestimonials {
+  width: 400px;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+.testimonialContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.testimonialDescription{
+  margin-top: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1000px) {
+.swiperTestimonials{
+    height: 300px;
+}
+}

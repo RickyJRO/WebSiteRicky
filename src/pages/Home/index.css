@@ -1,0 +1,166 @@
+.homeContainer {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.leftSideBar {
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rightSideBar {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rickyCartoon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.reactIconContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.reactIcon {
+  width: 300px;
+  height: 200px;
+  margin-left: 35px;
+}
+.homeRickyContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 1;
+}
+
+.someContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.testimonials {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.rightSideBarLabel {
+  font-size: 1.4vw;
+  font-weight: 400;
+
+  color: #fff;
+  text-align: right;
+}
+.textHomeDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+ 
+}
+.textHome {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 400;
+  margin-top: -15px;
+}
+.textHomeTiny {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.textHomeTiny2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  max-width: 500px;
+}
+.socialIcon {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  max-height: 30px;
+}
+.r {
+  color: rgb(46, 219, 250);
+}
+.homeRicky {
+  height: 75vh;
+}
+@media only screen and (max-width: 1300px) {
+  .textHomeDiv{
+    margin-left: 2rem;
+  }
+  
+}
+@media only screen and (max-width: 1000px) {
+ 
+  .homeContainer {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .leftSideBar {
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .socialIcon {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .someContent {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .textHomeDiv {
+    max-width: fit-content;
+    padding: 5rem;
+    margin-left: 0;
+  }
+  .rickyCartoon {
+    width: auto;
+  }
+  .homeRicky {
+    height: 40vh;
+  }
+  .reactIcon {
+    width: 150px;
+    height: 100px;
+    margin-left: 25px;
+  }
+  .rightSideBar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .textHomeDiv {
+    padding: 1.5rem;
+  }
+  .textHome {
+    font-size: 2.5rem;
+  }
+  .textHomeTiny {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+}
+.sunReact{
+  position: absolute;
+  top: -10%;
+  left: -6%;
+  width: 200px;
+  height: 200px;
+}
+.sun{
+  height: 100%;
+}
