@@ -70,7 +70,7 @@ export default function Card(props: IProps) {
                 href={projectLink}
                 target="_blank"
                 className="projectLink"
-                rel="noreferrer"
+               
               >
                 Project Link
               </a>

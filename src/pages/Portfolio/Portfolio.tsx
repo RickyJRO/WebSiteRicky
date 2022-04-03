@@ -17,6 +17,7 @@ import firebase from '../../assets/firebase.png'
 import php from '../../assets/wordpress.png'
 import wordpress from '../../assets/php.png'
 import nodejs from '../../assets/nodejs.png'
+import johnybravo from '../../assets/johnybravo.jpg'
 
 export default function Portfolio() {
   return (
@@ -48,6 +49,18 @@ export default function Portfolio() {
                 { name: 'Dotnet', image: dotnet },
               ]}
               projectLink="https://www.vortal.biz/"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="portfolioCard">
+            <Card
+              image={johnybravo}
+              projectName="JohnnyBravo"
+              projectDescription="An advertising music artist website"
+              responsabilityDescription="Designed the website, and also developed it"
+              stacks={[
+                { name: 'React', image: reactpng }
+              ]}
+              projectLink="https://www.johnnybravo77.com/"
             />
           </SwiperSlide>
           <SwiperSlide className="portfolioCard">

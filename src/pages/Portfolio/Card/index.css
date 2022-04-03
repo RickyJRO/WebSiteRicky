@@ -38,12 +38,12 @@
   font-size: 1.3vw;
 }
 .cardTechContainer {
-  padding: 0.7rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
-  height: 93%;
+  height: 90%;
 }
 .projectStack {
 }
@@ -70,6 +70,7 @@
 .projectLink {
   color: #fff;
   text-decoration: underline;
+  cursor: pointer;
 }
 .responsabilityTitle{
   font-size: 1.2vw;

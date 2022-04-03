@@ -14,7 +14,7 @@ export default function Testimonials() {
       <Swiper
         centeredSlides={true}
         autoplay={{
-          delay: 4500,
+          delay: 10500,
           disableOnInteraction: false,
         }}
         navigation={true}
